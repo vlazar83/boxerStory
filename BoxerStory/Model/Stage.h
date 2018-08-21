@@ -6,8 +6,12 @@
 //  Copyright © 2018. Lazar, Viktor. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface Stage : NSObject
+
+@property (nonatomic, strong) UIImage *stageBackgroundImage;
+@property (nonatomic, strong) NSString *stageDescription;
+@property (nonatomic, strong) NSString *playButtonText;
 
 @end
