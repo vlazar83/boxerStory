@@ -26,4 +26,18 @@
 }
 
 
+- (IBAction)btnPlayPressed:(id)sender {
+}
+
+- (IBAction)btnUpPressed:(id)sender {
+}
+
+- (IBAction)btnDownPressed:(id)sender {
+}
+
+- (IBAction)btnLeftPressed:(id)sender {
+}
+
+- (IBAction)btnRightPressed:(id)sender {
+}
 @end
