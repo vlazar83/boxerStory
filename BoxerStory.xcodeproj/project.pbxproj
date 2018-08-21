@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA64D9AD2126ED550029370D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA64D9AC2126ED550029370D /* AppDelegate.m */; };
+		EA64D9B02126ED550029370D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA64D9AF2126ED550029370D /* ViewController.m */; };
+		EA64D9B32126ED550029370D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA64D9B12126ED550029370D /* Main.storyboard */; };
+		EA64D9B52126ED560029370D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA64D9B42126ED560029370D /* Assets.xcassets */; };
+		EA64D9B82126ED560029370D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA64D9B62126ED560029370D /* LaunchScreen.storyboard */; };
+		EA64D9BB2126ED560029370D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA64D9BA2126ED560029370D /* main.m */; };
+		EA64D9C52126FD1B0029370D /* Stage.m in Sources */ = {isa = PBXBuildFile; fileRef = EA64D9C42126FD1B0029370D /* Stage.m */; };
+		EA64D9C92126FD360029370D /* BoxingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = EA64D9C82126FD360029370D /* BoxingFactory.m */; };
+		EA64D9D42126FD7A0029370D /* boxingMaster.png in Resources */ = {isa = PBXBuildFile; fileRef = EA64D9CB2126FD790029370D /* boxingMaster.png */; };
+		EA64D9D52126FD7A0029370D /* fight2.png in Resources */ = {isa = PBXBuildFile; fileRef = EA64D9CC2126FD790029370D /* fight2.png */; };
+		EA64D9D62126FD7A0029370D /* stage1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA64D9CD2126FD790029370D /* stage1.jpg */; };
+		EA64D9D72126FD7A0029370D /* stage2.png in Resources */ = {isa = PBXBuildFile; fileRef = EA64D9CE2126FD790029370D /* stage2.png */; };
+		EA64D9D82126FD7A0029370D /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = EA64D9CF2126FD790029370D /* food.png */; };
+		EA64D9D92126FD7A0029370D /* punchPower.png in Resources */ = {isa = PBXBuildFile; fileRef = EA64D9D02126FD790029370D /* punchPower.png */; };
+		EA64D9DA2126FD7A0029370D /* fight1.png in Resources */ = {isa = PBXBuildFile; fileRef = EA64D9D12126FD7A0029370D /* fight1.png */; };
+		EA64D9DB2126FD7A0029370D /* punchspeed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA64D9D22126FD7A0029370D /* punchspeed.jpg */; };
+		EA64D9DC2126FD7A0029370D /* stamina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA64D9D32126FD7A0029370D /* stamina.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA64D9A82126ED550029370D /* BoxerStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxerStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA64D9AB2126ED550029370D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA64D9AC2126ED550029370D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA64D9AE2126ED550029370D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA64D9AF2126ED550029370D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA64D9B22126ED550029370D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA64D9B42126ED560029370D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA64D9B72126ED560029370D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA64D9B92126ED560029370D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA64D9BA2126ED560029370D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA64D9C32126FD1B0029370D /* Stage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stage.h; sourceTree = "<group>"; };
+		EA64D9C42126FD1B0029370D /* Stage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stage.m; sourceTree = "<group>"; };
+		EA64D9C72126FD360029370D /* BoxingFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoxingFactory.h; sourceTree = "<group>"; };
+		EA64D9C82126FD360029370D /* BoxingFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoxingFactory.m; sourceTree = "<group>"; };
+		EA64D9CB2126FD790029370D /* boxingMaster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boxingMaster.png; sourceTree = "<group>"; };
+		EA64D9CC2126FD790029370D /* fight2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fight2.png; sourceTree = "<group>"; };
+		EA64D9CD2126FD790029370D /* stage1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stage1.jpg; sourceTree = "<group>"; };
+		EA64D9CE2126FD790029370D /* stage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stage2.png; sourceTree = "<group>"; };
+		EA64D9CF2126FD790029370D /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		EA64D9D02126FD790029370D /* punchPower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = punchPower.png; sourceTree = "<group>"; };
+		EA64D9D12126FD7A0029370D /* fight1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fight1.png; sourceTree = "<group>"; };
+		EA64D9D22126FD7A0029370D /* punchspeed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = punchspeed.jpg; sourceTree = "<group>"; };
+		EA64D9D32126FD7A0029370D /* stamina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stamina.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA64D9A52126ED550029370D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA64D99F2126ED550029370D = {
+			isa = PBXGroup;
+			children = (
+				EA64D9AA2126ED550029370D /* BoxerStory */,
+				EA64D9A92126ED550029370D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA64D9A92126ED550029370D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA64D9A82126ED550029370D /* BoxerStory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA64D9AA2126ED550029370D /* BoxerStory */ = {
+			isa = PBXGroup;
+			children = (
+				EA64D9C22126FD010029370D /* Model */,
+				EA64D9C12126FCFC0029370D /* View */,
+				EA64D9AB2126ED550029370D /* AppDelegate.h */,
+				EA64D9AC2126ED550029370D /* AppDelegate.m */,
+				EA64D9AE2126ED550029370D /* ViewController.h */,
+				EA64D9AF2126ED550029370D /* ViewController.m */,
+				EA64D9B42126ED560029370D /* Assets.xcassets */,
+				EA64D9B92126ED560029370D /* Info.plist */,
+				EA64D9BA2126ED560029370D /* main.m */,
+			);
+			path = BoxerStory;
+			sourceTree = "<group>";
+		};
+		EA64D9C12126FCFC0029370D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA64D9CA2126FD5F0029370D /* BackgroundImages */,
+				EA64D9B12126ED550029370D /* Main.storyboard */,
+				EA64D9B62126ED560029370D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA64D9C22126FD010029370D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA64D9C62126FD200029370D /* BoxingFactory */,
+				EA64D9C32126FD1B0029370D /* Stage.h */,
+				EA64D9C42126FD1B0029370D /* Stage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA64D9C62126FD200029370D /* BoxingFactory */ = {
+			isa = PBXGroup;
+			children = (
+				EA64D9C72126FD360029370D /* BoxingFactory.h */,
+				EA64D9C82126FD360029370D /* BoxingFactory.m */,
+			);
+			path = BoxingFactory;
+			sourceTree = "<group>";
+		};
+		EA64D9CA2126FD5F0029370D /* BackgroundImages */ = {
+			isa = PBXGroup;
+			children = (
+				EA64D9CB2126FD790029370D /* boxingMaster.png */,
+				EA64D9D12126FD7A0029370D /* fight1.png */,
+				EA64D9CC2126FD790029370D /* fight2.png */,
+				EA64D9CF2126FD790029370D /* food.png */,
+				EA64D9D02126FD790029370D /* punchPower.png */,
+				EA64D9D22126FD7A0029370D /* punchspeed.jpg */,
+				EA64D9CD2126FD790029370D /* stage1.jpg */,
+				EA64D9CE2126FD790029370D /* stage2.png */,
+				EA64D9D32126FD7A0029370D /* stamina.jpg */,
+			);
+			path = BackgroundImages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA64D9A72126ED550029370D /* BoxerStory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA64D9BE2126ED560029370D /* Build configuration list for PBXNativeTarget "BoxerStory" */;
+			buildPhases = (
+				EA64D9A42126ED550029370D /* Sources */,
+				EA64D9A52126ED550029370D /* Frameworks */,
+				EA64D9A62126ED550029370D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoxerStory;
+			productName = BoxerStory;
+			productReference = EA64D9A82126ED550029370D /* BoxerStory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA64D9A02126ED550029370D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Lazar, Viktor";
+				TargetAttributes = {
+					EA64D9A72126ED550029370D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EA64D9A32126ED550029370D /* Build configuration list for PBXProject "BoxerStory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA64D99F2126ED550029370D;
+			productRefGroup = EA64D9A92126ED550029370D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA64D9A72126ED550029370D /* BoxerStory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA64D9A62126ED550029370D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA64D9D92126FD7A0029370D /* punchPower.png in Resources */,
+				EA64D9D62126FD7A0029370D /* stage1.jpg in Resources */,
+				EA64D9DA2126FD7A0029370D /* fight1.png in Resources */,
+				EA64D9DC2126FD7A0029370D /* stamina.jpg in Resources */,
+				EA64D9B82126ED560029370D /* LaunchScreen.storyboard in Resources */,
+				EA64D9B52126ED560029370D /* Assets.xcassets in Resources */,
+				EA64D9D82126FD7A0029370D /* food.png in Resources */,
+				EA64D9D72126FD7A0029370D /* stage2.png in Resources */,
+				EA64D9D52126FD7A0029370D /* fight2.png in Resources */,
+				EA64D9D42126FD7A0029370D /* boxingMaster.png in Resources */,
+				EA64D9DB2126FD7A0029370D /* punchspeed.jpg in Resources */,
+				EA64D9B32126ED550029370D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA64D9A42126ED550029370D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA64D9C92126FD360029370D /* BoxingFactory.m in Sources */,
+				EA64D9B02126ED550029370D /* ViewController.m in Sources */,
+				EA64D9BB2126ED560029370D /* main.m in Sources */,
+				EA64D9C52126FD1B0029370D /* Stage.m in Sources */,
+				EA64D9AD2126ED550029370D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA64D9B12126ED550029370D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA64D9B22126ED550029370D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA64D9B62126ED560029370D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA64D9B72126ED560029370D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA64D9BC2126ED560029370D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA64D9BD2126ED560029370D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA64D9BF2126ED560029370D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CP53WF63PJ;
+				INFOPLIST_FILE = BoxerStory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vlazar.BoxerStory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA64D9C02126ED560029370D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CP53WF63PJ;
+				INFOPLIST_FILE = BoxerStory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vlazar.BoxerStory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA64D9A32126ED550029370D /* Build configuration list for PBXProject "BoxerStory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA64D9BC2126ED560029370D /* Debug */,
+				EA64D9BD2126ED560029370D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA64D9BE2126ED560029370D /* Build configuration list for PBXNativeTarget "BoxerStory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA64D9BF2126ED560029370D /* Debug */,
+				EA64D9C02126ED560029370D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA64D9A02126ED550029370D /* Project object */;
+}
