@@ -10,4 +10,6 @@
 
 @interface BoxingFactory : NSObject
 
+- (NSArray *) initializeAndReturnStages;
+
 @end
